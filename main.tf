@@ -8,5 +8,5 @@ terraform {
 }
 
 resource "aws_s3_bucket" "demo_bucket" {
-  bucket = "cc-bucket-for-7-13-23-demo"
+  bucket = "ccbucketdemo"
 }
