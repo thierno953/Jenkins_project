@@ -2,11 +2,11 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 4.0"
+      version = "~> 5.0"
     }
   }
 }
 
-resource "aws_s3_bucket" "demo_bucket" {
-  bucket = "ccbucketdemo"
+resource "aws_s3_bucket" "project_bucket" {
+  bucket = "ftbucketproject"
 }
